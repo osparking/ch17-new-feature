@@ -1,7 +1,9 @@
 package com.jbpark03.ch17newfeature.register;
 
 import org.springframework.context.event.EventListener;
+import org.springframework.stereotype.Service;
 
+@Service
 public class PassengerRegisterListener {
 
   @EventListener
