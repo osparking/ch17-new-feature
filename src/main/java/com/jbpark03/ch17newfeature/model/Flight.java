@@ -24,7 +24,7 @@ public class Flight {
 
   @Override
   public String toString() {
-    return "Flight [fligheNumber=" + fligheNumber + "]";
+    return "항공편 [번호=" + fligheNumber + "]";
   }
   
   public boolean addPassenger(Passenger passenger) {
